@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #D5D5D5;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar-left {
+    position: fixed;
+    z-index: 1;
+    background-color: #490057;
+    width: 170px;
+    height: 100vh;
+}
+
+.navbar-left p {
+    font-family: "nunito";
+    color: white;
+    opacity: 70%;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+#logo {
+    position: absolute;
+    top: 15px;
+    left: 26px;
+}
+
+#home {
+    position: absolute;
+    top: 110px;
+    left: 18px;
+}
+
+#profile {
+    position: absolute;
+    left: 16px;
+}
+
+#messages {
+    position: absolute;
+    left: 18px;
+}
+
+#purchases {
+    position: absolute;
+    left: 18px;
+}
+
+#returns {
+    position: absolute;
+    left: 17px;
+}   
+
+#gallery {
+    position: absolute;
+    left: 17px;
+}
+
+#analytics {
+    position: absolute;
+    left: 17px;
+}
+
+#p_home {
+    padding-top: 70px;
+}
+
+#p_profile {
+    color: #FBB03B;
+}
+
+#settings {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 17px;
+}
+
+.second_element_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    height: 100px;
+    width: 100vw;
+    margin-left: 0;
+    display: block;
+}
+
+#searchbar {
+    position: absolute;
+    left: 13%;
+    top: 20px;
+    height: 40px;
+    width: 60%;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-family: "nunito";
+    opacity: 70%;
+}
+
+#searchbar::placeholder {
+    color:#490057;
+}
+
+.mini_profile p {
+    position: absolute;
+    right: 100px;
+    font-size: 20px;
+    font-family: "nunito";
+    color:#490057;
+    opacity: 70%;
+}
+
+.mini_profile a {
+    position: absolute;
+    right: 111px;
+    top: 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#miniavatar {
+    position: absolute;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    right: 20px;
+    top: 15px;
+}
+
+.profile {
+    background-color: white;
+    width: 1150px;
+    height: 405px;
+    margin-left: 195px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.profile p {
+    font-family: "nunito";
+    color: #A303A0;
+    opacity: 70%;
+}
+
+#username {
+    position: absolute;
+    top: 380px;
+    font-size: 25px;
+    left:400px;
+}
+
+#usertitle {
+    position: absolute;
+    top: 430px;
+    left: 400px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+#backgroundimg {
+    position: absolute;
+    left: 195px;
+}
+
+#avatar {
+    position: absolute;
+    top: 250px;
+    left: 240px;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+}
+
+#editbackground {
+    position: absolute;
+    width: 172px;
+    height: 45px;;
+    top: 303px;
+    left: 1120px;
+    background-color: white;
+    font-family: "nunito";
+    color:#A303A0;
+    border-color: white;
+    border-radius: 10px;
+}
+
+#editprofile {
+    position: absolute;
+    height: 45px;
+    width: 172px;
+    top: 423px;
+    left: 1120px;
+    border-radius: 10px;
+    font-family: "nunito";
+    color:#A303A0;
+    background-color: white;
+    border-color: #A303A0;
+}
+
+.about {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin-left: 195px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.about p {
+    font-family: "nunito";
+    color:#A303A0;
+    opacity: 70%;
+    padding-left: 40px;
+}
+
+.about hr {
+    width: 200px;
+}
+
+.about img {
+    position: absolute;
+    left: 10px;
+}
+
+#gender_icon {
+    top: 35px;
+}
+
+#birth_icon {
+    top: 88px;
+}
+
+#adress_icon {
+    top: 150px;
+    left: 15px;
+}
+
+#email_icon {
+    top: 210px;
+    left: 15px;
+}
+
+#phonenumber_icon {
+    top: 262px;
+    left: 15px;
+}
