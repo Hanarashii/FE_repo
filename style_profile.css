@@ -4,6 +4,10 @@ body {
     background-color: #D5D5D5;
 }
 
+.body button:hover {
+    cursor: pointer;
+}
+
 .container {
     display: flex;
 }
@@ -327,6 +331,7 @@ body {
     flex-direction: column;
     background-color: white;
     height: auto;   
+    border-radius: 10px;
     position: relative;
 }
 
@@ -356,10 +361,66 @@ body {
 #likes {
     top: 10px;
     left: 20px;
+    fill:red;
 }
 
 #comments {
     top: 10px;
     left: 19px;
+}
+
+.friend {
+    display: flex;
+    flex-direction: column;   
+    margin-bottom: 20px;
+}
+
+.you_might_know {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+    width: 260px;
+    border-radius: 10px;
+    font-family: "nunito";
+    color:#490057;
+}
+
+.you_might_know p {
+    padding-left: 65px;
+}
+
+.you_might_know img {
+    position: absolute;
+}
+
+.you_might_know img {
+    width: 50px;
+    padding-left: 5px;
+}
+
+#you_might_know {
+    text-align: center;
+    font-size: 20px;
+    padding-left:0;
+}
+
+#person1 img {
+    top: 90px;
+}
+
+#person2 img {
+    top: 180px;
+}
+
+#person3 img {
+    top:270px;
+}
+
+.active {
+    background-color: white;
+    width: 260px;
+    height: auto;
 }
 
